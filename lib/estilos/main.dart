@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+
     Usuario u = Usuario(
         codigo: 1,
         login: "Rodolfo123",
@@ -21,10 +22,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-            title: const Text("Meus Dados: ")
+            title: const Text("Meus Dados: ") qazx342zx
         ),
         body: Center(
           child: Padding(padding: const EdgeInsets.all(18.0),
+
             child: Column(
               children: [
                 Text("Nome: ${u.nome}"),
