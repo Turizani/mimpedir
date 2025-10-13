@@ -5,6 +5,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
 class DatabaseHelper {
+
   static final _nomeBanco = 'solucao_completa.db';
   static Database? _db;
 
