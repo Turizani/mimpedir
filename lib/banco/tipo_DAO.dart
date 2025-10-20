@@ -2,7 +2,7 @@ import 'Database_helper.dart';
 import 'tipo.dart';
 
 class tipoDAO{
-
+a
   static Future<Tipo> listar(int? id) async{
     final db = await DatabaseHelper.getDatabase();
     final resultado = await db.query('tb_tipo',
