@@ -10,7 +10,7 @@ class TelaEditRestaurante extends StateFulWidget {
 
   @override
   State<StateFulWidget> createState() {
-    return  TelaEditRestauranteState();
+    return TelaEditRestauranteState();
   }
 }
 

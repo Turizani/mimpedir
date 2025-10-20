@@ -63,9 +63,9 @@ future<void> carregarTipos() async{
               decorarion: const InputDecoration(hintText: 'Nome do restaurante'),
               Valitador: (String? value) {},
                 Controller: nomeControler,
-            )
+            );
           ]
         )
-      );
+      )
   }
 }

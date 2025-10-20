@@ -15,6 +15,7 @@ a
     );
   }
 
+
   static Future<List<Tipo>> listarTipos() async{
     final db = await DatabaseHelper.getDatabase();
     final resultado = await db.query('tb_tipo');

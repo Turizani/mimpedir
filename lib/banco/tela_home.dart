@@ -26,7 +26,7 @@ class TelaHome extends StatelessWidget {
 carregarRestaurante();
 
 Future<void> carregarRestaurantes() async {
-  final lista = await Restaurante
+  final lista = await Restaurantes
 }
 
 
